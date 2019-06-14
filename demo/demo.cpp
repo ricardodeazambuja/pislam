@@ -28,6 +28,7 @@
 #include <iostream>
 #include <ctime>
 #include <cassert>
+#include <stdarg.h>
 
 void write_png_file(const char* file_name, int width, int height, int depth, uint8_t *buf);
 uint8_t *read_png_file(const char *filename, uint32_t *width, uint32_t *height);
